@@ -1,28 +1,11 @@
-//const notas push pop me
 
-const notas = [10, 6, 8];
-
-notas.push(7);
-
-const media = (notas[0] + notas [1] + notas [2] + notas[3] ) / notas.length;
-
-console.log(media);
-
-//const nota1 = 10
-//const nota2 = 6.5
-//const nota3 = 8
-//const nota4 = 7.5
-
-const notas = [ 10, 6.5, 8, 7.5 ];
-
-const media = ( notas[0] + notas[1] + notas[2] + notas[3] )
-
-console.log (media);
-console.log (notas[3]);
-
+const notas = [10, 6, 3];
 
 notas.pop();
 
-const media = (notas[0] + notas [1] + notas [2] + notas[3] ) / notas.length;
+notas.push(10);
 
-console.log(media);
+const media = (notas[0] + notas[1] + notas[2]) / notas.length;
+
+console.log("Notas atuais:", notas); 
+console.log("Média final:", media); 
